@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Playfair+Display:wght@500;600&family=Work+Sans:wght@100;200&display=swap');
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+/*RESPONSIVE*/
+.display-phone{
+    display:inherit !important;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+.header-phone{
+  width: 100%;
+  height: 70px;
+  padding: 0px 20px;
+  background-color: black;
+  background:linear-gradient(180deg, rgba(0,0,0),rgba(0,0,0));
+}
+
+.header-phone i{
+  height: 60px;
+  color: rgb(255, 255, 255);
+  float: right;
+  padding: 20px 10px;
+}
+
+
+/*ENLACES*/
+
+.inicio{
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  height: 9%;
+  position: fixed;
+  transition: .4 all;
+  z-index: 1; /*prioriza para que este en cima de todos los elementos*/
+
+}
+.inicio ul{
+  padding: 0px;
+  text-align: center;
+}
+.inicio li{
+  transition: .3s all;
+  text-decoration: none;
+  list-style: none;
+}
+.inicio a{
+  text-decoration: none;
+  list-style: none;
+  transition: .3s all;
+  font-size: 0px;
+  padding: 0px;
+}
+.inicio h2{
+  text-align: center;
+  color: white;
+  padding: 7px;
+  padding-bottom: 7px;
+  font-size: 0px;
+  font-family: 'Playfair Display', serif;
+}
+
+.inicio:hover{
+  width: 70%;
+  height: 100%;
+  background: rgba(22, 22, 22, 0.98);
+
+}
+.inicio:hover h2{
+  padding: 15px;
+  font-size: 35px;
+}
+.inicio:hover a{
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.inicio:hover img{
+  height: 0px;
+}
+.inicio:hover li{
+  border-top: 1px solid black;
+  width: 100%;
+}
+.inicio:hover ul:last-of-type{
+  border-bottom: 1px solid black ;
+}
+.inicio:hover a:hover{
+  font-size: 25px;
+  padding: 30px 0px;
+  background-color: rgba(99, 99, 99, 0.98);
+}
+/*PRINCIPAL*/
+#section-principal{
+  width: 100%;
+  height: 150vh;
+  background-image: url(banner-principal.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+#section-principal article{
+  width: 60%;
+  height: 150vh;
+  background-color: rgba(0, 0, 0, 0.589);
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section-principal article h2{
+  font-size: 70px;
+  padding-right: 50px;
+  font-family: 'Playfair Display', serif;
+}
+#section-principal article h3{
+  padding-left: 70px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+#section-principal article p{
+  padding: 50px 50px 50px 50px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.89);
+}
+/**/
+#section-secundario{
+  width: 100%;
+  height: 200vh;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  
+}
+#section-secundario .article-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section-secundario .article-1 h2{
+  padding: 60px 0px;
+}
+#section-secundario .article-1 p{
+  padding: 0px 50px;
+  font-size: 15px;
+}
+#section-secundario .article-1 div{
+  padding: 60px 0px;
+}
+#section-secundario .article-1 a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+#section-secundario .article-2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article-2 div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 900px;
+}
+.imagen-2{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imagen-1{
+  display: flex;
+  flex-direction: column;
+}
+.imagen-1 {
+  position:relative ;
+  padding-bottom: 400px;
+}
+/*SECCION TRES SLIDDER*/  
+.section-tres{
+  width: 100%;
+  height: 170vh;
+  background-color:rgb(26, 26, 26) ;
+}
+section  .parrafo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.section-tres .parrafo h2{
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 70px 0px;
+  text-align: center;
+}
+.section-tres .parrafo p{
+  text-align: center;
+  padding: 0px 60px 60px 60px;
+}
+/*SLIDER*/
+.section-tres #slider-automatico-infinito{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+}
+.section-tres #slider-automatico-infinito::before{
+  content:'';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.582);
+  width: 100%;
+  height: 100vh;
+}
+.section-tres .masinfo{
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  height: 100%;
+  padding: 0px 45px;
+}
+.section-tres .masinfo div{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.seccion-tres .masinfo .icono{
+  color: white;
+}
+.section-tres .masinfo #icono-flecha{
+  color: white;
+  font-size: 50px;
+  align-items: center;
+}
+.section-tres .masinfo h2{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 35px;
+  padding: 0px 0px 30px 0px;
+}
+.section-tres .masinfo p{
+  font-size: 14px;
+  width: 80%;
+  padding-bottom: 50px;
+}
+.section-tres #slider-automatico-infinito ul{
+  padding:0;
+  display: flex;
+  width: 400%;
+  animation: slider 20s infinite;
+  animation-timing-function: lineal;
+}
+.section-tres #slider-automatico-infinito li{
+  width: 100%;
+  list-style: none;
+}
+.section-tres #slider-automatico-infinito img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slider{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+
+}
+.seccion4-formulario{
+  background-color: aqua;
+  width: 100%;
+
+}
+/*SLIDER*/
+.seccion4-formulario{
+  width: 100%;
+  height: 170vh;
+  background-image: url(banner-final.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*FORMULARIO PHONE*/
+.seccion4-formulario article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.seccion4-formulario #formulario{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.767);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+  color: white;
+}
+.seccion4-formulario #formulario h2{
+  padding: 15px 0px 0px 0px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+.seccion4-formulario #formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.seccion4-formulario #formulario p{
+  font-size: 14px;
+  text-align: right;
+  padding: 10px 0px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+/**/
+form{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form_group{
+    position: relative;
+    --color:#ffffff7e;
+}
+.form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.form_input:not(:placeholder-shown){
+    color: #ffffff;
+}
+.form_input:focus + .form_label,.form_input:not(:placeholder-shown) +.form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #ffffff;
+}
+.form_label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form_submit{
+    background: hsla(0, 0%, 0%, 0);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: 2px solid white;
+    color:white;
+}
+.form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+.form_input:focus ~ .form_line,
+.form_line:not(:placeholder-shown) ~ .form_line{
+    transform: scale(1);
+
+}

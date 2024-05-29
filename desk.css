@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Playfair+Display:wght@500;600&family=Work+Sans:wght@100;200&display=swap');
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+/*RESPONSIVE*/
+.display-desk{
+    display:inherit !important;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.header-desk{
+  width: 100%;
+  height: 70px;
+  padding: 20px 30px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+.inicio-desk{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desk-iconos{
+  display:flex;
+}
+.inicio-desk ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.desk-iconos i{
+  padding: 0px 10px;
+  color: white;
+  font-size: 13px;
+}
+.inicio-desk ul h2{
+  display: flex;
+  align-self: center;
+  font-weight: 400;
+  justify-content: center;
+  color:white;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+}
+.inicio-desk ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 0px 25px;
+}
+.inicio-desk ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/*SECCION UNO*/
+#section-principal-desk{
+  width: 100%;
+  height: 130vh;
+  background-image: url(banner-principal.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+#section-principal-desk #article-desk{
+  width: 45%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left ;
+}
+#section-principal-desk #article-desk h2{
+  font-size: 130px;
+  color:white;
+  font-family: 'Playfair Display', serif;
+}
+#section-principal-desk #article-desk h3{
+  display: flex;
+  justify-content: right;
+  align-items: right ;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+#section-principal-desk #article-desk p{
+  font-size: 15px;
+  color: white;
+  padding-top: 30px;
+  font-family: 'Work Sans', sans-serif;
+}
+/*SECCION DOS RESPONSIVE DESK*/
+#section-secundario-desk{
+  width: 100%;
+  height: 130vh;
+  background-image: url(seccion2-de2.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  padding: 0px 60px;
+}
+#section-secundario-desk .article-1-desk{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content:center;
+}
+#section-secundario-desk  h2{
+  display: flex;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 45px;
+  padding: 90px 0px;
+}
+#section-secundario-desk .article-1-desk{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#section-secundario-desk .article-1-desk p{
+  display: flex;
+  width: 60%;
+  padding: 20px 0px;
+  font-family: 'Work Sans', sans-serif;
+}
+#section-secundario-desk .article-1-desk .boton{
+  font-family: 'Work Sans', sans-serif;
+  padding: 130px 0px;
+}
+
+#section-secundario-desk .article-1-desk div{
+  justify-content: center;
+}
+#section-secundario-desk .article-1-desk .imagen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 470px;
+}
+#section-secundario-desk .article-1-desk .imagen .imagen-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-secundario-desk .article-1-desk a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+#section-secundario-desk .article-1-desk a:hover{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+}
+/*SECCION TERCERA RESPONSIVE DESK  */
+.section-tres-desk{
+  width: 100%;
+  height: 150vh;
+  background-color:rgb(15, 15, 15) ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 30px;
+
+}
+section  .parrafo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.section-tres-desk .parrafo h2{
+  width: 100%;
+  font-size: 45px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 20px 0px;
+  text-align: center;
+}
+.section-tres-desk .parrafo p{
+  text-align: center;
+  padding: 0px 60px 60px 60px;
+  width: 60%;
+  font-family: 'Work Sans', sans-serif;
+}
+/**/
+#card-imagenes-desk{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  padding: 0px 10px;
+}
+#card-imagenes-desk .contenedor-figure-desk{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-figure-desk figure {
+  width: 25%;
+  height: 540px;
+  position: relative;
+  
+}
+.contenedor-figure-desk figure img{
+  width: 100%;
+  height: 100%;
+}
+.overlay-desk{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.overlay-desk .icono{
+  font-size: 30px;
+}
+
+.overlay-desk .infomasicono{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.overlay-desk h2{
+  color: white;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+.overlay-desk i{
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+.overlay-desk p{
+  color: white;
+  padding: 0px 20px;
+  font-size: 17px;
+  font-family: 'Work Sans', sans-serif;
+}
+.overlay-desk:hover{
+  opacity: 1;
+}
+.overlay-desk > *{
+  transform:translateY(25px);
+  transition: transform 0.6s;
+}
+
+/*FORMULARIO RESPONSIVE PHO*/
+
+/*FORMULARIO PHONE*/
+.seccion-formulario-desk article {
+  width: 100%;
+  height: 100%;
+  background-image: url(banner-final.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+.seccion-formulario-desk #formulario{
+  width: 45%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.877);
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  padding: 50px 50px;
+  color: white;
+}
+.seccion-formulario-desk #formulario .titulo-formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.seccion-formulario-desk #formulario h2{
+  padding: 15px 0px 0px 0px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+.seccion-formulario-desk #formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.seccion-formulario-desk #formulario p{
+  font-size: 14px;
+  text-align: right;
+  padding: 10px 0px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+/**/
+form{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    font-family: 'Work Sans', sans-serif;
+}
+.form_group{
+    position: relative;
+    --color:#ffffff7e;
+}
+.form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.form_input:not(:placeholder-shown){
+    color: #ffffff;
+}
+.form_input:focus + .form_label,.form_input:not(:placeholder-shown) +.form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #ffffff;
+}
+.form_label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form_submit{
+    background: hsla(0, 0%, 0%, 0);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: 2px solid white;
+    color:white;
+}
+.form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+.form_input:focus ~ .form_line,
+.form_line:not(:placeholder-shown) ~ .form_line{
+    transform: scale(1);
+}
+#formulario .container .form_submit:hover{
+  background-color: white;
+  color: black;
+}
